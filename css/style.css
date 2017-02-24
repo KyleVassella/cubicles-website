@@ -1,0 +1,470 @@
+/* 
+Metrophobic (only 400)
+Open Sans
+Source Sans Pro (weird capital Q)
+*/
+
+body {
+	font-family: 'Metrophobic', sans-serif;
+	font-weight: 400;
+}
+
+body:after {
+	/* pre-load hover images */
+	display: none;
+	content: url(../media/nucleo-social-icons/svg/social-1_logo-youtube.svg) url(../media/nucleo-social-icons/svg/social-1_logo-facebook.svg) url(../media/nucleo-social-icons/svg/social-1_logo-twitter.svg);
+}
+
+.align-right {
+	text-align: right;
+}
+
+/*.navbar {
+	min-height: 100px;
+	line-height: 100px;
+	vertical-align: center;
+}
+
+.navbar-brand {
+	font-size: 70px;
+}
+
+.navbar-logo {
+	height: 100px;
+	display: inline-block;
+	padding: 0 0 0 25px;
+}
+
+.navbar-nav li a {
+    padding:0 15px;
+    line-height:100px;    
+}
+.navbar-header a {
+    padding:0 15px;
+    line-height:100px;    
+}
+
+.dropdown {
+	font-size: 23px;
+}
+
+.dropdown-menu > li > a {
+	font-size: 20px;
+	line-height: 45px;	
+}
+
+
+
+.social-youtube {	
+	width: 80px;
+	height: 60px;
+	display: inline-block;
+	background: transparent url(../media/nucleo-social-icons/social-youtube.svg) center no-repeat;
+	background-size: 80px 60px;
+	line-height: 100px;
+	vertical-align: middle;		
+}
+
+.social-youtube:hover {
+	background: transparent url(../media/nucleo-social-icons/svg/social-1_logo-youtube.svg) center no-repeat;
+	background-size: 80px 60px;
+}
+
+.social-facebook {
+	width: 80px;
+	height: 60px;
+	display: inline-block;
+	background: transparent url(../media/nucleo-social-icons/social-facebook.svg) center no-repeat;
+	background-size: 80px 60px;
+	line-height: 100px;
+	vertical-align: middle;	
+}
+
+.social-facebook:hover {
+	background: transparent url(../media/nucleo-social-icons/svg/social-1_logo-facebook.svg) center no-repeat;
+	background-size: 80px 60px;	
+}
+
+.social-twitter {
+	width: 80px;
+	height: 60px;
+	display: inline-block;
+	background: transparent url(../media/nucleo-social-icons/social-twitter.svg) center no-repeat;
+	background-size: 80px 60px;
+	line-height: 100px;
+	vertical-align: middle;	
+}
+
+.social-twitter:hover {
+	background: transparent url(../media/nucleo-social-icons/svg/social-1_logo-twitter.svg) center no-repeat;
+	background-size: 80px 60px;	
+}*/
+
+
+
+
+.navbar {
+	min-height: 70px;
+	line-height: 70px;
+	vertical-align: center;
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	font-size: 65px;
+}
+
+.navbar-logo {
+	height: 75px;	
+	display: inline-block;
+	padding: 0 10px 0 15px;
+}
+
+.navbar-nav li a {
+    padding:0 15px;
+    line-height:75px;    
+}
+.navbar-header a {
+    padding:0 15px;
+    line-height:75px;    
+}
+
+
+
+.dropdown {
+	font-size: 20px;
+}
+
+.dropdown-menu > li > a {
+	font-size: 20px;
+	line-height: 45px;
+}
+
+.social-icon {
+	width: 70px;		
+	padding: 0 10px;
+}
+
+
+.social-youtube {
+	width: 70px;
+	height: 50px;
+	display: inline-block;
+	background: transparent url(../media/nucleo-social-icons/social-youtube.svg) center no-repeat;
+	background-size: 70px 50px;
+	line-height: 70px;
+	vertical-align: middle;	
+}
+
+.social-youtube:hover {
+	background: transparent url(../media/nucleo-social-icons/svg/social-1_logo-youtube.svg) center no-repeat;
+	background-size: 70px 50px;
+}
+
+.social-facebook {
+	width: 70px;
+	height: 50px;
+	display: inline-block;
+	background: transparent url(../media/nucleo-social-icons/social-facebook.svg) center no-repeat;
+	background-size: 70px 50px;
+	line-height: 70px;
+	vertical-align: middle;	
+}
+
+.social-facebook:hover {
+	background: transparent url(../media/nucleo-social-icons/svg/social-1_logo-facebook.svg) center no-repeat;
+	background-size: 70px 50px;	
+}
+
+.social-twitter {
+	width: 70px;
+	height: 50px;
+	display: inline-block;
+	background: transparent url(../media/nucleo-social-icons/social-twitter.svg) center no-repeat;
+	background-size: 70px 50px;
+	line-height: 70px;
+	vertical-align: middle;	
+}
+
+.social-twitter:hover {
+	background: transparent url(../media/nucleo-social-icons/svg/social-1_logo-twitter.svg) center no-repeat;
+	background-size: 70px 50px;	
+}
+
+
+
+.cover {
+	 background-image: url('../media/stock-photos/people-in-cubicles.jpg');
+	background-size: cover;
+  background-position: 60% 90%;  /* (60% 90%)  (60% 50%)*/
+  background-attachment: fixed;
+  min-height: calc(100vh - 325px); /* 180px, 220px, 400px*/
+  opacity: 0.8; 
+/*  filter: alpha(opacity=20);*/
+}
+
+.cover-overlay {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+
+/*		display: inline-block;*/
+/*	margin: 35vh auto 15vh auto;*/
+position: relative;
+top: calc(20vh + 75px);
+/*min-height: calc(100vh - 400px);*/
+width: 52vw;  /*50vw*/
+height: auto;
+/*	z-index: 2;*/
+	/*padding: 40px 20px;*/
+/*	padding: 0 20px;*/
+	/*background: linear-gradient(to right, rgba(249, 249, 249, .6) 85%, rgba(249, 249, 249, 0));*/  /*background: linear-gradient(to right, rgba(249, 249, 249, .6) 70%, rgba(249, 249, 249, 0));*/
+	background: linear-gradient(to right, rgba(150, 104, 73, .85) 85%, rgba(113, 52, 23, 0));
+}
+
+.cover-overlay-span {
+	display: block;
+	font-size: 1.8vw;
+	font-weight: lighter;
+	color: white;
+	padding: 6px 0 6px 10px;
+	max-width: 48vw;
+	line-height: 1.5em;
+}
+
+.body-content {
+background-color: #f8f8f8;
+	margin-top: 0;
+	margin: 0;
+/*	width: 100vw;*/
+}
+
+
+
+/******************************
+      Featured Thumbs
+/*******************************/
+
+
+.featured-row {
+  height: 100%;
+}
+
+.featured-thumb-frame {
+	padding: 0;
+}
+
+.left-thumb {
+	padding: 0 2px 4px 0;
+}
+
+.center-thumb {
+	padding: 0 2px 4px 2px;
+}
+
+.right-thumb {
+	padding: 0 0 4px 2px;
+}
+
+.featured-thumb {
+  display: table;
+  background-size: cover;
+  width: calc(101% - 6px);
+  overflow: hidden;
+}
+
+.featured-thumb a {
+  height: 360px;
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s
+}
+
+.featured-thumb a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.large-font {
+	font-size: 10em; /* 15em */
+text-align: center;
+/*margin-top: 50px;*/
+/*margin-bottom: 200px;*/
+}
+
+
+/******************************
+    Sticky Header Animation
+/*******************************/
+
+/*.nav-trigger { 
+	transition: .4s;
+	transition-property: initial;
+	transition-duration: 0.4s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+}*/
+
+
+
+
+/******************************
+          Slick Carousel
+/*******************************/
+
+
+.slickSlidesOuter-review {
+  /*  width: 100%;*/
+  margin: 0 auto 175px auto;
+  padding-bottom: 70px;
+  /*  background-image: linear-gradient(transparent 20%, lightgray, white);*/
+}
+
+
+.slides {
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+/********* ARROWS *********/
+
+.slick-prev, .slick-next {
+  width: auto;
+  height: auto;
+}
+
+.slick-next {
+  right: 2px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: gray;
+  font-size: 80px;
+}
+
+.arrow {
+	width: 50px;
+}
+
+.reviews-frame {
+  margin-bottom: -58px;
+}
+
+.reviews-title {
+  background-color: ghostwhite;
+  font-size: 3em;
+  position: relative;
+  top: 60px;
+  padding-top: 15px;
+  margin-top: 175px;
+  z-index: 2;
+  text-align: center;
+}
+
+.gallery {
+	margin-top: 175px;
+}
+
+.reviewSlides {
+  /*height: 300px;*/
+}
+
+.review-slide {
+  height: 375px;
+  /*line-height: 30px;*/
+  background-color: ghostwhite;
+  font-size: 1.5em;
+  /*vertical-align: center;*/
+  /*padding-top: 100px;*/
+}
+
+.review-frame {
+  width: 80vw;
+  margin: 100px auto 0 auto;
+}
+
+.review {
+  display: inline;
+  clear: left;
+}
+
+.review-signature {
+  display: block;
+  margin-top: 15px;
+/*  margin-left: 150px;*/
+  font-weight: bolder;
+  font-size: .8em;
+}
+
+.review-logo-veeco {
+/*	width: 300px;*/
+/*	display: inline;*/
+	float: left;
+	margin-right: 55px;
+	width: 400px;
+}
+
+.review-logo-hp {
+/*	width: 300px;*/
+/*	display: inline;*/
+	float: left;
+	margin-right: 25px;
+	width: 300px;
+	position: relative;
+	bottom: 80px;
+}
+
+.review-logo-amegy {
+/*	width: 300px;*/
+/*	display: inline;*/
+	float: right;
+	margin-right: 55px;
+	width: 350px;
+	position: relative;
+	bottom: 40px;
+}
+
+.review-logo-kroger {
+	float: right;
+	width: 250px;
+}
+
+@media (max-width: 802px) {
+	.social-youtube, .social-facebook, .social-twitter {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	nav.navbar {
+		height: 75px;
+	}
+}
+
+@media (max-width: 516px) {
+
+.navbar-logo {
+	display: none !important;
+}
+
+.navbar-brand {
+	font-size: 55px;
+}
+
+
+
+}
+
+
+/* enables nav hover dropdown (but disables it on mobile devices, which is necessary) */
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
