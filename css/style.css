@@ -336,14 +336,14 @@ body:after {	/* pre-load hover images */
 
 @media (min-width: 768px) and (max-width: 802px) {
 	.social-youtube {
-	margin: 0 -5px 0 -5px;
-	width: 70px;
-	height: 50px;
-	display: inline-block;
-	background: transparent url(../media/nucleo-social-icons/social-youtube.svg) center no-repeat;
-	background-size: contain;
-	line-height: 70px;
-	vertical-align: middle;	
+		margin: 0 -5px 0 -5px;
+		width: 70px;
+		height: 50px;
+		display: inline-block;
+		background: transparent url(../media/nucleo-social-icons/social-youtube.svg) center no-repeat;
+		background-size: contain;
+		line-height: 70px;
+		vertical-align: middle;	
 	}
 
 	.social-facebook {
