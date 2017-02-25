@@ -354,6 +354,13 @@ body:after {	/* pre-load hover images */
 	}
 }
 
+@media (max-width: 903px) {
+	.review {
+		font-size: 15px;
+	}
+
+}
+
 @media (min-width: 768px) and (max-width: 802px) {
 	.social-youtube {
 		margin: 0 -5px 0 -5px;
