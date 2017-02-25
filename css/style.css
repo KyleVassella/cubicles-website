@@ -289,7 +289,7 @@ body:after {	/* pre-load hover images */
 
 .review {
   display: inline;
-  clear: left;
+/*  clear: left;*/
 }
 
 .review-signature {
@@ -333,6 +333,26 @@ body:after {	/* pre-load hover images */
 	width: 250px;
 }
 
+
+@media (max-width: 1519px) {
+	.review-logo {
+		width: 30%;
+	}
+
+	.review-logo-hp {
+		position: static;
+	}
+
+	.review-logo-amegy {
+		position: static;
+	}
+}
+
+@media (min-width: 979px) {		/* enables nav hover dropdown (but disables it on mobile devices, which is necessary) */
+	ul.nav li.dropdown:hover > ul.dropdown-menu {
+		display: block;
+	}
+}
 
 @media (min-width: 768px) and (max-width: 802px) {
 	.social-youtube {
@@ -379,6 +399,16 @@ body:after {	/* pre-load hover images */
 	}
 }
 
+@media (max-width: 703px) {
+	.large-font {
+		font-size: 7em;
+	}
+
+	.gallery {
+		margin-top: 100px;
+	}
+}
+
 @media (max-width: 516px) {
 	.navbar-logo {
 		display: none !important;
@@ -389,8 +419,8 @@ body:after {	/* pre-load hover images */
 	}
 }
 
-@media (min-width: 979px) {		/* enables nav hover dropdown (but disables it on mobile devices, which is necessary) */
-  ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;
-  }
+@media (max-width: 492px) {
+	.large-font {
+		font-size: 5em;
+	}
 }
